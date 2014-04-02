@@ -1,4 +1,4 @@
-nap.plugin(function (Snap, Element, Paper, glob) {
+Snap.plugin(function (Snap, Element, Paper, glob) {
     Element.prototype.textwrap = function (width) {        
         var svgNS = "http://www.w3.org/2000/svg";
         if (this.type != "text")
